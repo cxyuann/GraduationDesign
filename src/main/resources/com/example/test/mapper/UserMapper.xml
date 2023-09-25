@@ -8,6 +8,6 @@
     </insert>
 
     <select id="selectUserByUsernamePassword" resultType="com.example.test.po.User">
-        select * from user where username=#{username} and password=#{password}
+        select * from com_user where username=#{username} and password=#{password}
     </select>
 </mapper>
